@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TakeDetails"
+        android:orientation="vertical"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"
+
+                />
+
+            <EditText
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Enter name"
+                android:inputType="text"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email Id"
+                android:id="@+id/text_email"
+                android:inputType="text"
+                android:layout_weight="1"
+
+                >
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"
+
+
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:id="@+id/text_pass"
+                android:inputType="textPassword"
+                android:layout_weight="1"
+                >
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile NO."
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"
+
+
+                />
+
+            <EditText
+                android:id="@+id/text_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Enter Mobile No."
+                android:layout_weight="1"
+
+                >
+
+            </EditText>
+        </LinearLayout>
+
+
+
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="College"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_weight="3"
+
+
+                />
+            <EditText
+                android:id="@+id/text_college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Enter college name"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_weight="3" />
+            <EditText
+                android:id="@+id/text_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter city"
+                android:layout_weight="1"
+                android:inputType="text"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_weight="3" />
+
+            <EditText
+                android:id="@+id/text_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter state"
+                android:layout_weight="1" ></EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"
+
+
+                />
+
+            <EditText
+                android:id="@+id/text_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="India"
+                android:layout_weight="1"
+
+                >
+
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id ="@+id/save_detail"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/roundend"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:onClick="saveOrder1"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
